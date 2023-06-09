@@ -1,14 +1,16 @@
+import Banner from "@/Components/Banner/Banner";
 import Head from "next/head";
+import About from "./About";
 
-  
+
 export default function Home() {
   return (
-    <div className="px-7%">
+    <div className="">
       <Head>
         <title>Home</title>
       </Head>
-
-      <h1>This is Home  Page</h1>
+      <Banner></Banner>
+      <About></About>
     </div>
   )
 }

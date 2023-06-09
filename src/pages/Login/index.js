@@ -37,7 +37,7 @@ const Login = () => {
                                     </label>
                                 </div>
                                 <div className="form-control mt-2">
-                                    <button className="btn btn-primary">Login</button>
+                                    <button className="btn btn-accent">Login</button>
                                 </div>
                             </form>
 
